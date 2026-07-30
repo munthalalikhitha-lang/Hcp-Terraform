@@ -1,9 +1,9 @@
 
 provider "aws" {
-  region = "ap-south-1"
+  region = "ap-south-2"
 }
 resource "aws_instance" "one" {
-  ami           = "ami-01a00762f46d584a1"
+  ami           = "ami-0c8dc555a7e1ca7a3"
   instance_type = "t3.micro"
   tags = {
     Name = "dev-server"
